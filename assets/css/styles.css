@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600);
 @import url(http://fonts.googleapis.com/css?family=Raleway:600,700,800);
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-@font-face {
-	font-family: Satisfy;
-	src: url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
-}
-
 html, button, input, select, textarea {
 	color: #222;
 }
@@ -16,7 +9,7 @@ html, button, input, select, textarea {
  text-shadow: none;
 }
 ::selection {
-	background: #ffb2cc;
+	background: #16a085;
 	color: #a4003a;
 	text-shadow: none;
 }
@@ -58,8 +51,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.4;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	/*font-family: 'Satisfy', cursive;*/
+	font-family: 'Open Sans', sans-serif;
 }
 .logo a {
 margin: 0 auto; 
@@ -147,13 +139,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
 	color: #333;
 }
-h1{
-	font-weight: 900;
-}
 h2 {
 	font-size: 36px;
 	color: #901A1A;
-	font-family: 'Concert One', cursive;
 }
 h3 {
 	font-size: 26px;
@@ -439,7 +427,6 @@ background:#fff;
 }
 #greywrap .callout {
 	margin-bottom: 20px;
-	display:inline-block;
 }
 #greywrap p {
 	font-size: 30px;
@@ -590,28 +577,6 @@ background:url('../img/div-pattern.png') top left repeat-x;
 height:30px;
 width:100%;
 display:block;
-}
-#map{
-	display: block;
-	width: 90vw;
-	height: calc(.75* 90vw);
-	max-height: 450px;
-	max-width: 600px;
-	float: left;
-	margin-right: 10px;
-	border: solid 2px #BB1919;
-	box-shadow: 2px 2px 2px grey;
-	border-radius: 4px;
-}
-#img {
-	display: block;
-	width: 90vw;
-	height: calc(.75* 90vw);
-	max-height: 300px;
-	max-width: 340px;
-	float: left;
-	margin-right: 10px;
-	border-radius: 4px;
 }
 /* ==========================================
    MEDIA QUERIES
