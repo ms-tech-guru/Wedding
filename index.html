@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="webthemez">
+  <title>Wedding Celebration | Sau. Priyanka Rathore & Kr. Ravinder Singh Shekhawat</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/animate-custom.css" rel="stylesheet">
+  <script src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Mar 4, 2022 12:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      // var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("counter").innerHTML = " ( " + days + " days to go.)";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("counter").innerHTML = "...Thank you !!";
+      }
+    }, 1000);
+
+  </script>
+
+</head>
+
+<body data-target="#navbar-main">
+  <div id="navbar-main">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <div class="pull-left logo">
+            <a class="" href="#home"><img src="assets/img/logo2.jpg" class="responsive"></a>
+            <br><small>ॐ श्री गणेशाय नमः  | ॐ पितृ देवाय नमः | ॐ जमुयाय नमः | ॐ नागणेचा नमः 
+
+          </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#home-section">Welcome</a></li>
+            <li> <a href="#service">Programme</a></li>
+            <li> <a href="#aboutus">Invitation</a></li>
+            <li> <a href="#moments">Moments</a></li>
+            <li> <a href="#team">Manuhaar</a></li>
+            <li> <a href="#contact">Venue</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==== HEADERWRAP ==== -->
+  <div id="home-section">
+    <div id="headerwrap" name="home">       
+      <header class="clearfix tb">        
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 tb-cell text-center">
+          <h1>Sau. Priyanka Rathore & Kr. Ravinder Singh Shekhawat</h1>
+          <p>are getting married on <code> <strong>4th, March 2022</strong> </code><text id="counter"></text></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /headerwrap -->
+
+
+
+  <!-- ==== SERVICES ==== -->
+  <div id="services" name="services">
+    <a id="service"></a>
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">PROGRAMME</h2>
+        <hr>
+        <div class="col-lg-4 callout">
+          <img id="img" src="assets/img/haldi1.png">
+          <h3>Haldi (Baan)</h3>
+          <p>Monday 28 Feb 2022, 10:15 Morning</p>
+        </div>
+        <div class="col-lg-4 callout">
+          <img id="img" src="assets/img/Mehandi.png">
+          <h3>Mehendi</h3>
+          <p>Friday 03, Mar 2022, Morning 10:15AM</p>
+        </div>
+        <div class="col-lg-4 callout">
+          <img id="img" src="assets/img/sangeet.png">
+          <h3>Ladies Sangeet</h3>
+          <p>Friday 03, Mar 2022, Starting 12:15 till you enjoy :-)</p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+  </div>
+  <!-- container -->
+  <section class="hero-section section">
+    <div class="container">
+      <div class="highlight tb">
+        <div class="tb-cell">
+          <p align="center">Baarat will arrive from Gudha (Mehrauli) on 4th Mar 2022 at evening 5:15PM at the venue.</p>
+        </div>
+        <!-- <div class="links tb-cell">
+                    <div class="reservation-link">
+                        <a href="#" class="btn reservation-btn">Greetings</a> 
+                    </div> 
+                </div> -->
+      </div>
+    </div>
+
+  </section>
+  <div class="div-pattern"></div>
+  <!-- ==== ABOUT ==== -->
+  <a id="aboutus"></a>
+  <div id="about" name="about">
+    <div class="container">
+      <div class="row white">
+        <h2 class="centered">INVITATION</h2>
+        <div class="container">
+          <div class="highlight tb">
+            <div class="tb-cell">
+              <p align="center"><b>Late Smt. Madan Kanwar & Th. Sh. Rewat Singh Shekhawat, Thikana : Sanwalpura
+                  Shekhawatan</b> <br>
+                have great pleasuere in inviting you to grace the auspicious occasion of the wedding ceremony of their
+                beloved granddaughter (दोहती) </p>
+            </div>
+            <!-- <div class="links tb-cell">
+                <div class="reservation-link">
+                    <a href="#" class="btn reservation-btn">Greetings</a> 
+                </div> 
+            </div> -->
+          </div>
+        </div>
+        <hr>
+        <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align="top"> </div>
+        <div class="col-md-6">
+          <br><br><br>
+          <h3>Sau. Priyanka Rathore</h3>
+          <p>Grand D/o Smt. Supyar Kanwar & Late Th. Sh. Kishore Singh Ji Rathore
+            <br>
+            D/o Smt. Sushila Kanwar & Th. Sh. Jagmal Singh Ji Rathore
+            <br>
+            Thikana : Dhundiya, Parbatsar - Nagour
+          </p>
+          <Hr>
+          <h3>Chi. Kr. Ravinder Singh Shekhawat</h3>
+          <p>Grand S/o Late Th. Sh. Amar Singh Ji Shekhawat
+            <br>
+            S/o Th. Sh. Mool Singh Ji Shekhawat
+            <br>
+            Thikana : Gudha (Mehrauli) - Sikar
+          </p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+  </div>
+  <!-- container -->
+  <!-- ==== PORTFOLIO ==== -->
+  <div id="portfolio" name="portfolio">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">MOMENTS...</h2>
+        <a id="moments"></a>
+        <hr>
+      </div>
+      <!-- /row -->
+      <div class="container">
+        <div class="row">
+
+          <!-- PORTFOLIO IMAGE 1 -->
+          <div class="col-md-4 ">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/f1.jpg" alt="">
+                <figcaption>
+                  <h5>Together</h5>
+                  <!-- <a data-toggle="modal" href="#" class="btn btn-default"></a> -->
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+
+
+          <!-- /.modal -->
+
+          <!-- PORTFOLIO IMAGE 2 -->
+          <div class="col-md-4">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/f2.jpg" alt="">
+                <figcaption>
+                  <h5>Mindblow</h5>
+                  <!-- <a data-toggle="modal" href="#" class="btn btn-default"></a> -->
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+
+          <!-- PORTFOLIO IMAGE 3 -->
+          <div class="col-md-4">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/f3.jpg" alt="">
+                <figcaption>
+                  <h5>Awesome</h5>
+                  <!-- <a data-toggle="modal" href="#" class="btn btn-default"></a> -->
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+        </div>
+        <!-- /row -->
+
+      </div>
+      <!-- /row -->
+    </div>
+  </div>
+  <!-- /container -->
+
+  <!-- ==== TEAM MEMBERS ==== -->
+  <div id="team" name="team">
+    <div class="container">
+      <div class="row centered">
+        <h2 class="centered">SPECIAL MANUHAR</h2>
+        <hr>
+
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/mr.jpg" height="120px"
+            width="120px" alt="">
+          <h5><strong>Late Smt. Madan Kanwar & Th. Sh. Rewat Singh Shekhawat</strong></h5>
+          <p>(Nanisa - Nanosa)</p>
+        </div>
+
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/SK.jpg" height="120px"
+            width="120px" alt="">
+          <h5><strong>Smt. Supyar Kanwar & Late Th. Sh. Kishore Singh Rathore</strong></h5>
+
+          <p>(Dadisa - Dadosa)</p>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/sj.jpg" height="120px"
+            width="120px" alt="">
+          <h5><strong>Smt. Sushila Kanwar & Th. Sh. Jagmal Singh Rathore</strong></h5>
+
+          <p>(Mummy - Papa)</p>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/rs.jpg" height="120px"
+            width="120px" alt="">
+          <h5><strong>Smt. Reena Rathore & Kr. Sohan Singh Shekhawat</strong></h5>
+
+          <p>(Mamisa - Mamosa)</p>
+        </div>
+
+      </div>
+
+      <!-- ---- -->
+
+
+      <div class="row centered">
+        <h2 class="centered">BAL-MANUHAR</h2>
+        <hr>
+
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/hr.jpg" height="120px"
+            width="120px" alt="">
+          <H5><strong>Harshita Rathore</strong></H5>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/ks.jpg" height="120px"
+            width="120px" alt="">
+          <H5><b>Kanishka Shekhawat</b></H5>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/pr.jpg" height="120px"
+            width="120px" alt="">
+          <H5><b>Pushpendra Singh Rathore</b></H5>
+        </div>
+        <div class="col-lg-3 centered"> <img class="img img-circle" src="assets/img/team/ns.jpg" height="120px"
+            width="120px" alt="">
+          <H5><b>Niya Shekhawat</b></H5>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- row -->
+  </div>
+
+
+
+
+  <!-- container -->
+
+  <!-- ==== TEAM MEMBERS ==== -->
+  <!-- <div id="team" name="team">
+    <div class="container">
+      <div class="row centered">
+        <h2 class="centered">FAMILY</h2>
+        <hr>
+        
+        <div class="col-lg-4 left">
+          <h4><strong>Nanihal Paksha <br> (Sanawalpura Shekhawatan, Sikar)</strong></h4>
+         
+
+          <p align="left">
+            Th. Sh. Bhanwar Singh Shekhawat<br>Th. Sh. Sharwan Singh Shekhawat<br>Th. Sh. Bhawani Singh Shekhawat
+            <br>Th. Sh. Ram Singh Shekhawat<br>Th. Sh. Rajendra Singh Shekhawat
+          </p>
+
+
+          <p align="left">
+            Kr. Maman Singh Shekhawat <br>Kr. Sohan Singh Shekhawat<br> Kr. Himmat Singh Shekhawat<br>Kr. Lalit Singh
+            Shekhawat<br>Kr. KP Singh Shekhawat <br>Kr. Manish Singh Shekhawat<br> Kr. Dipendra Singh Shekhawat<br>Kr.
+            Hemant
+            Singh Shekhawat
+          </p>
+         
+         
+        </div>
+
+        <div class="col-lg-4 centered">
+          <h4><strong>Parivaar Paksha <br> Dhundiya, Nagour </strong></h4>
+          <p align="left">
+            Th. Sh. Gokul Singh Rathore<br>Th. Sh. Ladu Singh Rathore<br>Th. Sh. Bhanwar Singh Rathore
+            <br>Th. Sh. Rajendra Singh Rathore<br>Kr. Sh. Jitendra Singh Rathore<br>Kr. Sh. Kayam Singh Rathore
+            <br>Kr. Sh. Vikram Singh Rathore<br>Kr. Sh. Narendra Singh Rathore
+          </p>
+
+
+          <p align="left">
+            Kr. Harshraj Singh Rathore <br>Kr. Shivpal Singh Rathore<br> Kr. Abhiraj Singh Rathore<br>Kr. Bhagirath
+            Singh
+            Rathore<br>Kr. Kuldeep Singh Rathore <br>Kr. Anandpal Singh Rathore<br> Kr. Pradeep Singh Rathore<br>Kr.
+            Pushpendra
+            Singh Rathore<br>Kr. Rishiraj Singh Rathore<br>Kr. Aditya Singh Rathore
+          </p>
+        </div>
+
+        <div class="col-lg-4 centered">
+          <h4><strong>Dadera Paksha <br> Joravar Nagar, Sikar</strong></h4>
+          <p align="left">Th. Sh. Sajjan Singh Shekhawat<br>Th. Sh. Ganga Singh Shekhawat<br>Th. Sh. Surendra Singh Shekhawat<br>
+            
+
+          </p>
+        </div>
+
+
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <p><b>Special invitation from children Party : Divansh, Nandini, Mishthi, Hiten, Digvijay, Aaroo, Aayansh.</b></p>
+          <br />
+        </div>
+
+      </div>
+    </div>   
+  </div> -->
+  <!-- container -->
+
+  <!-- ==== CONTACT ==== -->
+  <div id="contact" name="contact">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">WEDDING VENUE</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="map-responsive">
+            <iframe id="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9343114135363!2d75.71141801547154!3d26.93729686551511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4d77f6ee45ad%3A0xd61f935c44fc1abc!2sKalyan%20Farms!5e0!3m2!1sen!2sin!4v1644037663138!5m2!1sen!2sin"
+              width="600px" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <!-- form -->
+        </div>
+
+        <div class="col-md-5">
+          <i class="fa fa-map-marker fa-2x"></i>
+          <strong>KALYAN FARMS</strong>
+          <p>Kandira enclave, Gokulpura<br>
+            Behind Tejaji Mandir<br> Jhotwara, Jaipur -302012</p>
+
+          <br />
+          <i class="fa fa-phone fa-2x"></i>
+          <p> +91-8769854370 <br> +91-8003604240 <br> +91-9784444327</p>
+
+        </div>
+      </div>
+      <!-- row -->
+
+    </div>
+  </div>
+  <!-- container -->
+
+  <div id="footerwrap">
+    <div class="container">
+      <div class="row">
+        <h3>
+          <!-- <div class="col-md-12">ॐ श्री गणेशाय नमः</div> -->
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+  <script type="text/javascript" src="assets/js/custom-scripts.js"></script>
+</body>
+
+</html>
