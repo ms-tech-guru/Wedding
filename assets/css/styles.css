@@ -251,7 +251,7 @@ a:before, a:after {
 	background: url(../img/header_bg.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top: 120px;
-	text-align: center;
+	text-align: center;	
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 850px;
@@ -304,6 +304,17 @@ a:before, a:after {
 	border-radius: 0px;
 }
  
+.centered-div{
+	
+	color: #ffffff;
+	width:80%;
+	text-align:center;
+	padding-left:10px;
+	padding-top:300px;
+	margin:0 auto
+}
+
+
 .img-circle {
 border-radius: 50%;
 border: 1px solid #E89A2F;
